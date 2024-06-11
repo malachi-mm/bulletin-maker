@@ -150,7 +150,7 @@ from functools import partial
 
 
 from easygui import *
-from test import *
+from appAlon import *
 
 open_files = fileopenbox("Welcome", filetypes= "*.docx", multiple=True)
 #sts = "\\".join(open_files[0].split("\\")[:-1])
